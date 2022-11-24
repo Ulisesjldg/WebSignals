@@ -1,0 +1,11 @@
+create database biomedical;
+use biomedical;
+create table usuarios (
+    Id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    Nombre VARCHAR(100) NOT NULL,
+    Email VARCHAR(100) NOT NULL,
+    Contrasena VARCHAR(200) NOT NULL,
+    Edad INT,
+    Peso DECIMAL(4,2),
+    Tipo_De_Sangre VARCHAR(10)
+)
